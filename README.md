@@ -16,8 +16,8 @@ local install. Ships with three example tools (`echo`, `add`, `server_time`).
 3. It goes live at `https://<your-app>.dockhold.app`. The MCP endpoint is
    **`POST /mcp`**.
 
-Dockhold runs it directly (no Dockerfile). Every push to your main branch
-redeploys.
+Dockhold builds the included [`Dockerfile`](Dockerfile). Every push to your main
+branch redeploys.
 
 ## Connect a client
 
