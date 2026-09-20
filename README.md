@@ -5,12 +5,12 @@ A remote [MCP](https://modelcontextprotocol.io) server that deploys to
 HTTP** transport, so any MCP client can connect to it over a live HTTPS URL — no
 local install. Ships with three example tools (`echo`, `add`, `server_time`).
 
-[![Deploy to Dockhold](https://img.shields.io/badge/Deploy%20to-Dockhold-2563eb?style=for-the-badge)](https://app.dockhold.eu/new?repo=https://github.com/dockhold/mcp-server-starter)
+[![Deploy on Dockhold](https://dockhold.eu/button.svg)](https://app.dockhold.eu/new?repo=https://github.com/dockhold/mcp-server-starter&name=mcp-server-starter&ref=button)
 
 ## Deploy it
 
 1. Click **Use this template** (or fork this repo).
-2. Click **Deploy to Dockhold** above, or open
+2. Click **Deploy on Dockhold** above, or open
    [app.dockhold.eu/new](https://app.dockhold.eu/new), connect GitHub, and pick
    your repo.
 3. It goes live at `https://<your-app>.dockhold.app`. The MCP endpoint is
@@ -18,6 +18,15 @@ local install. Ships with three example tools (`echo`, `add`, `server_time`).
 
 Dockhold builds the included [`Dockerfile`](Dockerfile). Every push to your main
 branch redeploys.
+
+## Deploy with your AI tool
+
+Install the Dockhold plugin or MCP server in your AI coding tool
+([setup guide](https://dockhold.eu/docs/recipes/deploy-from-your-ai-tool)), then
+say "put this online" in a folder with this template. The tool signs you in
+through the browser once and reports the URL when the app is live.
+
+Or from a terminal: `npx dockhold login`, then `npx dockhold deploy`.
 
 ## Connect a client
 
