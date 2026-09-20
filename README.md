@@ -10,7 +10,7 @@ local install. Ships with three example tools (`echo`, `add`, `server_time`).
 ## Deploy it
 
 1. Click **Use this template** (or fork this repo).
-2. Click **Deploy to Dockhold** above, or open
+2. Click **Deploy on Dockhold** above, or open
    [app.dockhold.eu/new](https://app.dockhold.eu/new), connect GitHub, and pick
    your repo.
 3. It goes live at `https://<your-app>.dockhold.app`. The MCP endpoint is
